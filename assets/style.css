@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container .columna-1 {
+    display: flex;
+    background-color: #fff;
+    flex-grow: 2;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin-right: 0px;
+    border-right: 2px solid #bec1bb;
+    overflow-y: scroll;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #a491d2;
+    color: #fff;
+    width: 85%;
+    height: 55px;
+    border: #fff;
+}
+
+menu {
+    align-self: flex-start;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    
+}
+
+li {
+    display: flex;
+    justify-content: start;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li img {
+    border-radius: 80px;
+    align-self: center;
+    height: 60px;
+    width: 60px;
+    
+}
+li .texto {
+    justify-content: start;
+    align-self: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+li .texto h1 {
+    font-size: large;
+    margin: 1px;
+}
+
+li .iconos {
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: 40px;
+}
+
+li i {
+    align-self: center;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.container .columna-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 20;
+    background-color: #e8ebe4;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 470px;
+}
+
+section h1 {
+    font-size: 40px;
+    justify-content: stretch;
+}
+
+section img {
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
